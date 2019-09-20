@@ -1,0 +1,18 @@
+.buttons {
+  grid-row: 4/5;
+  grid-column: 4/10;
+  display: flex;
+  align-items: center;
+}
+.btn {
+  margin: 12px;
+  color: white;
+}
+.btn:hover {
+  color: #ffff66;
+  cursor: pointer;
+}
+.dashboard {
+  grid-row: 6/8;
+  grid-column: 4/10;
+}
