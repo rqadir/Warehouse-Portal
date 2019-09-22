@@ -10,26 +10,28 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <div class="logo">
-      <a href="/"><img src="/imgs/dwh_logo.png" alt="Daraz Warehouse Logo" height="60px"></a>
-    </div>
-  </header>
-  <!-- Buttons to Execute a job and Download a file -->
+  <div class="container">
+    <header>
+      <div class="logo">
+        <a href="/"><img src="/imgs/dwh_logo.png" alt="Daraz Warehouse Logo" height="60px"></a>
+      </div>
+    </header>
+    <!-- Buttons to Execute a job and Download a file -->
 
-  <div class="buttons sspro f16 bgColor">
-    <div class="btn">
-      <a href="/run-jobs.php">Run Jobs</a>
+    <div class="buttons sspro f16 bgColor">
+      <div class="btn">
+        <a href="/run-jobs/">Run Jobs</a>
+      </div>
+      <div class="btn">
+        <a href="/download-files/">Download Files</a>
+      </div>
     </div>
-    <div class="btn">
-      Download Files
-    </div>
-  </div>
-  <!-- Buttons ended -->
+    <!-- Buttons ended -->
 
-  <div class="dashboard">
-    <h2 class="sspro black">Your Warehouse Dashboard</h2>
-    <p class="sspro inverted f16">Please set your preferences.</p>
+    <div class="dashboard">
+      <h2 class="sspro black">Your Warehouse Dashboard</h2>
+      <p class="sspro inverted f16">Please set your preferences.</p>
+    </div>
   </div>
 </body>
 </html>
